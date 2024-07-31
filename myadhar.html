@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Aadhaar</title>
+    <style>
+    
+        .sai{
+            text-decoration: none;
+            color: #ffffffe9   
+        }
+        .my{
+            background-color: blue;
+            padding: 8px;
+            
+            
+        }
+        button{
+            background-color: transparent;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            font-weight: 700 ;
+            border: none;
+            font-size: 15px;
+            
+        }
+        .container{
+            width: 1500px;
+            height: 700px;
+            /* border: 1px solid; */
+            display: none;
+        }
+        .block1 , .block2 , .block3 , .block4 ,.block5{
+            width: 250px;
+            height: 350px;
+            /* border: 1px solid; */
+            margin-right: 15px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+            
+        }
+        /* .block2{
+            width: 250px;
+            height: 350px;
+            border: 1px solid;
+            display: inline-block;
+            cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .block3{
+            width: 250px;
+            height: 350px;
+            border: 1px solid;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .block4{
+            width: 250px;
+            height: 350px;
+            border: 1px solid;
+            vertical-align: top;
+            display: inline-block;cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .block5{
+            width: 250px;
+            height: 350px;
+            border: 1px solid;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;} */
+        
+        .block1 > a{
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 40px;
+            text-decoration: none;
+            color: rgb(6, 6, 6);
+        }
+        .block2 > a {
+            display: block;
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .block3 > a , .block4 > a , .block5 > a{
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            color: black;
+        }
+        button:active{
+            color: rgb(10, 10, 10);
+            background-color: white;
+            display: block;
+        }
+        button:focus-within~.container{
+            display: block;
+            
+        }
+
+        h4:hover , a:hover{
+            background-color: rgb(136, 183, 203);
+            opacity: 0.8; /* it uses to decreses the color */
+            color: blue;
+        }
+        /* /* button:hover{
+            color:blue;
+            background-color: beige;
+            opacity: 0.5; */
+        
+        
+    
+
+      
+    </style>
+</head>
+<body>
+    <img src="https://uidai.gov.in/images/logo/uidai_english_logo.svg" alt="">
+    <br>
+    
+        <button class="my">My Aadhaar</button>
+    <br>
+
+   <div class="container">
+     <div class="block1">
+        
+        <a href="https://uidai.gov.in/en/my-aadhaar/update-aadhaar.html"><h4>Update Your Aadhaar</h4></a>
+        <a href="https://myaadhaar.uidai.gov.in/du/en">Document Update</a>
+        <a href="https://myaadhaar.uidai.gov.in/CheckAadhaarStatus/en">Check Aadhaar Update Status</a>
+        <a href="https://myaadhaar.uidai.gov.in/">Update Demographics data & Check Status</a>
+        <a href="https://uidai.gov.in/images/commdoc/List_of_Supporting_Document_for_Aadhaar_Enrolment_and_Update.pdf">List of Supporting Documents for Aadhaar Enrolment & Update</a>
+        <a href="https://uidai.gov.in/en/my-aadhaar/downloads/enrolment-and-update-forms.html"> Enrolment & Update Forms</a>
+        <a href="https://uidai.gov.in/images/Aadhaar_Enrolment__and__Update__-__English.pdf">Aadhaar Enrolment & Update Charges</a>
+        <a href="https://myaadhaar.uidai.gov.in/">Aadhaar Update History</a>
+        <a href="https://appointments.uidai.gov.in/easearch.aspx">Update Aadhaar at Enrolment/Update Center</a>
+       
+     </div>
+     <div class="block2">
+        <a href="https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html"><h4>Get Aadhaar</h4></a>
+        <a href="https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html">Book a Appointment</a>
+        <a href="https://myaadhaar.uidai.gov.in/check-aadhaar">Chech Aadhaar Status</a>
+        <a href="https://myaadhaar.uidai.gov.in/genricDownloadAadhaar/en">Download Aadhaar</a>
+        <a href="https://myaadhaar.uidai.gov.in/genricPVC/en">Order Aadhaar PVC Card</a>
+        <a href="https://myaadhaar.uidai.gov.in/checkStatus/en">Check Aadhaar PVC Card Status</a>
+        <a href="https://bhuvan.nrsc.gov.in/aadhaar/">Locate an enrolment center in Bhuvan Aadhaar</a>
+        <a href="https://uidai.gov.in/images/Aadhaar_Enrolment__and__Update__-__English.pdf">Aadhaar Enrolment & Update Charges</a>
+        <a href="https://uidai.gov.in/en/my-aadhaar/downloads/enrolment-and-update-forms.html">Enrolment &Update Forms</a>
+        <a href="https://uidai.gov.in/images/commdoc/List_of_Supporting_Document_for_Aadhaar_Enrolment_and_Update.pdf">List Of Supporting DFocuments for Aadhaar Enrolment & Update</a>
+
+     </div>
+     <div class="block3">
+        <a href=""><h4>Aadhaar Service</h4></a>
+        <a href="">Verify an Aadhaar Number</a>
+        <a href="">Verify Email/Mobile Number</a>
+        <a href="">Retrieve Lost or Forgotten EID/UID</a>
+        <a href="">Virtual ID (VID) Generator</a>
+        <a href="">Aadhaar Paperless Offline e- kyc (Beta)</a>
+        <a href="">Bank Seeding status</a>
+        <a href="">Check Aadhaar validity</a>
+        <a href="">Lock/Unlock Biometrics</a>
+        <a href="">Aadhaar Authentication History</a>
+        <a href="">Aadhaar Lock and Unlock Service</a>
+
+     </div>
+     <div class="block4">
+        <a href=""><h4>About your Aadhaar</h4></a>
+        <a href="">Features of Aadhaar</a>
+        <a href="">Usage of Aadhaar</a>
+        <a href="">Aadhaar Enrolment</a>
+        <a href="">Aadhaar Generation</a>
+        <a href="">Updating Data on Aadhaar</a>
+        <a href="">Security in UIDAI system</a>
+        <a href="">Aadhaar Myth Busters</a>
+
+
+     </div>
+     <div class="block5">
+        <a href=""><h4>Aadhaar on Your Mobile</h4></a>
+        <a href="">mAadhaar for Android</a>
+        <a href="">mAadhaar App links for iOS</a>
+        <a href="">Enrolment and Update Forms</a>
+        <a href="">Aadhaar Enrolment and Update Charges</a>
+        <a href="">Validity of downloaded Aadhaar (e-Aadhaar) as Proof of Identity Doc Type: PDF Size: 0.1MB</a>
+        <a href="">New eAadhaar Doc Type: PDF Size:0.2 MB</a>
+        <a href="">Handbooks Doc Type: PDF Size: 35MB</a>
+
+     </div>
+   </div>
+</body>
+</html>
